@@ -8,18 +8,20 @@
 <strong>Recipe Application with custom recipe uploads. You have the ability to bookmark recipes which remain in your browswer local storage.</strong>
 
 <h2> This app demonstrates a few features </h2>
+<ol type="1">
+  <li>Search functionality: API search request.</li>
+  <li>Results with pagination.</li>
+  <li>Display recipes.</li>
+  <li>Change servings functionality.</li>
+  <li>Bookmarking functionality</li>
+  <li>Store bookmarked recipes in local storage.</li>
+  <li>Upon page load, read saved bookmarks.</li>
+  <li>The ability to upload your own recipe.</li>
+  <li>Own recipes automatically bookmarked.</li>
+  <li>Users can only see their own recipes.</li>
+  <li>The wonderful and beautiful styles of SASS.</li>
+ </ol>  
 
-Search functionality: API search request.
-Results with pagination.
-Display recipes.
-Change servings functionality.
-Bookmarking functionality.
-Store bookmarked recipes in local storage.
-Upon page load, read saved bookmarks.
-The ability to upload your own recipe.
-Own recipes automatically bookmarked.
-Users can only see their own recipes.
-The wonderful and beautiful styles of SASS.
 
 Unfortunately, I had issues during the build process when deploying to Netlify. Previously, I had utilized the Fraction.js library to render recipe ingredient quantities in a more user-friendly manner. However, this library failed to be installed several times during the build process so I removed that dependency for the time-being. I hope you enjoy the application.
 
