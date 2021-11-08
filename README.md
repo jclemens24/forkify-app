@@ -1,6 +1,6 @@
 # Forkify Project
 
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" style="padding: 3px"/> <img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white" style="padding: 3px"/> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" style="padding: 3px"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" style="padding: 3px"/> <img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white" style="padding: 3px"/> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" style="padding: 3px"/>![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 
 <h1> https://forkify-jmc.netlify.app/ </h1>
@@ -23,5 +23,5 @@
  </ol>  
 
 
-Unfortunately, I had issues during the build process when deploying to Netlify. Previously, I had utilized the Fraction.js library to render recipe ingredient quantities in a more user-friendly manner. However, this library failed to be installed several times during the build process so I removed that dependency for the time-being. I hope you enjoy the application.
+Unfortunately, I had issues during the build process when deploying to Netlify. Previously, I had utilized the [Fraction.js](https://github.com/infusion/Fraction.js/) library to render recipe ingredient quantities in a more user-friendly manner. However, this library failed to be installed several times during the build process so I removed that dependency for the time-being. I hope you enjoy the application.
 
