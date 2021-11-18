@@ -8,7 +8,7 @@
 
 <h1> https://forkify-jmc.netlify.app/ </h1>
 
-<strong>Recipe Application with custom recipe uploads. You have the ability to bookmark recipes which remain in your browswer local storage.</strong>
+<strong>Recipe Application with custom recipe uploads. You have the ability to bookmark recipes which remain in your browser local storage.</strong>
 
 <h2> This app demonstrates a few features </h2>
 <ol type="1">
