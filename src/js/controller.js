@@ -9,10 +9,6 @@ import { UPLOAD_TIMEOUT_SEC } from './config.js';
 import 'core-js/stable';
 import 'regenerator-runtime/runtime.js';
 
-///////////////////////////////////////
-// API KEY
-// 3f8ff37e-e369-4054-ae77-98dcb5a6788f
-
 const controlRecipes = async function () {
   try {
     const id = window.location.hash.slice(1);
