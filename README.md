@@ -1,4 +1,3 @@
-
 <div align="center" dir="auto">
   <h1 dir="auto"># Forkify Project</h1>
   <br>
@@ -23,8 +22,6 @@
   <li>Own recipes automatically bookmarked.</li>
   <li>Users can only see their own recipes.</li>
   <li>The wonderful and beautiful styles of SASS.</li>
- </ol>  
+ </ol>
 
-
-Unfortunately, I had issues during the build process when deploying to Netlify. Previously, I had utilized the [Fraction.js](https://github.com/infusion/Fraction.js/) library to render recipe ingredient quantities in a more user-friendly manner. However, this library failed to be installed several times during the build process so I removed that dependency for the time-being. I hope you enjoy the application.
-
+After some time, I was able to resolve build issues that involved the Fractional library to render recipe servings. I incorrectly attributed this error to Fraction.js which coincidentally ended up being the library that fixed this display. [Fraction.js](https://github.com/infusion/Fraction.js/).
