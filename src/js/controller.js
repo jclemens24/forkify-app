@@ -63,13 +63,11 @@ const controlPagination = function (goToPage) {
 
 const controlServings = async function (newServings) {
   // Update the recipe servings (in state)
-  await model.updateServings(newServings).then(() => {
-    recipeView.update(model.state.recipe);
-  });
+  await model.updateServings(newServings);
 
   // Update the recipe View to reflect
   // recipeView.render(model.state.recipe);
-  recipeView.update(model.state.recipe);
+  recipeView.render(model.state.recipe);
 };
 
 const controlAddBookmark = function () {
